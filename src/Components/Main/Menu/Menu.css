@@ -1,0 +1,23 @@
+.Menu {
+	width: 10%;
+    min-height: 100%;
+    /* background-color: black; */
+    /* border-right: 1px solid black; */
+    background-color: #F8F9FA;
+    flex-shrink: 0;
+}
+
+
+.NavBars{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.NavBars a{
+    text-decoration: none;
+    color: cadetblue;
+}
